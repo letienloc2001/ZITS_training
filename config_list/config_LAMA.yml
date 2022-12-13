@@ -15,7 +15,7 @@ TRAIN_MASK_FLIST: [ "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/sch
 MASK_RATE: [0.4, 0.8, 1.0]
 TEST_MASK_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/test.txt"
 
-BATCH_SIZE: 32                 # input batch size for training
+BATCH_SIZE: 8                 # input batch size for training
 INPUT_SIZE: 256               # input image size for training 0 for original size
 MAX_ITERS: 800000                # maximum number of iterations to train the model
 
