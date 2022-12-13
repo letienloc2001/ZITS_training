@@ -13,7 +13,7 @@ GT_Val_FOLDER: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolho
 TRAIN_MASK_FLIST: [ "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/train.txt",
                     "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/train.txt" ]
 MASK_RATE: [0.4, 0.8, 1.0]
-TEST_MASK_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/test.txt"
+TEST_MASK_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/val"
 
 BATCH_SIZE: 8                 # input batch size for training
 INPUT_SIZE: 256               # input image size for training 0 for original size
