@@ -2,18 +2,18 @@ SEED: 3407            # random seed
 No_Bar: False        # Turn off the progressive bar
 
 # modify the image path
-TRAIN_FLIST: /home/wmlce/places365_standard/places2_all/train_list.txt
-VAL_FLIST: /home/wmlce/places365_standard/places2_all/test_sub_list.txt
-TEST_FLIST: /home/wmlce/places365_standard/places2_all/test_sub_list.txt
+TRAIN_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/target/train.txt"
+VAL_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/target/val.txt"
+TEST_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/target/test.txt"
 
 # set the GT images folder for metrics computation
-GT_Val_FOLDER: '/home/wmlce/places365_standard/val_256img_for_eval'
+GT_Val_FOLDER: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/target/val"
 
 # modify the mask path
-TRAIN_MASK_FLIST: [ '/home/wmlce/irregular_mask/irregular_mask_list.txt',
-                    '/home/wmlce/coco_mask/coco_mask_list.txt' ]
+TRAIN_MASK_FLIST: [ "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/train.txt",
+                    "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/train.txt" ]
 MASK_RATE: [0.4, 0.8, 1.0]
-TEST_MASK_FLIST: /home/wmlce/Image-Transformer-Inpainting/data/indoor/test_mask
+TEST_MASK_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/test.txt"
 
 BATCH_SIZE: 32                 # input batch size for training
 INPUT_SIZE: 256               # input image size for training 0 for original size
