@@ -15,15 +15,15 @@ TRAIN_MASK_FLIST: [ "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/sch
 MASK_RATE: [0.4, 0.8, 1.0]
 TEST_MASK_FLIST: "/content/drive/Shareddrives/HCMUT/Thesis/data/places265/schoolhouse/mask/val"
 
-BATCH_SIZE: 8                 # input batch size for training
+BATCH_SIZE: 16                 # input batch size for training
 INPUT_SIZE: 256               # input image size for training 0 for original size
-MAX_ITERS: 800000                # maximum number of iterations to train the model
+MAX_ITERS: 30000                # maximum number of iterations to train the model
 
-SAVE_INTERVAL: 2000           # how many iterations to wait before saving model (0: never)
-SAMPLE_INTERVAL: 2000         # how many iterations to wait before sampling (0: never)
+SAVE_INTERVAL:   250      # how many iterations to wait before saving model (0: never)
+SAMPLE_INTERVAL: 250         # how many iterations to wait before sampling (0: never)
 SAMPLE_SIZE: 12               # number of images to sample
-EVAL_INTERVAL: 2000              # how many iterations to wait before model evaluation (0: never)
-LOG_INTERVAL: 2000            # how many iterations to wait before logging training status (0: never)
+EVAL_INTERVAL: 250              # how many iterations to wait before model evaluation (0: never)
+LOG_INTERVAL: 250            # how many iterations to wait before logging training status (0: never)
 
 run_title: ''
 
